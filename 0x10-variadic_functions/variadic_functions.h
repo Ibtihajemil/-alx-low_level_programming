@@ -2,8 +2,8 @@
 #define variadic_functions_h
 
 
-#include <stddef.h>
-#include <stdlib.h>
+#include <stdarg.h>
+#include <stdio.h>
 
 
 void print_name(char *name, void (*f)(char *));
